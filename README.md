@@ -269,9 +269,22 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 >  
 > 🛠️ [Code](https://github.com/meta-pytorch/KernelAgent) ![Stars](https://img.shields.io/github/stars/meta-pytorch/KernelAgent.svg)
 
+### (2025.11) KForge: Program Synthesis for Diverse AI Hardware Accelerators
+
+> 📃 [Paper](https://arxiv.org/abs/2511.13274)
+
+### (2025.11) AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2511.15915)
+
+
 ### (2025.11) Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems
 
 > 📃 [Paper](https://arxiv.org/abs/2511.16964)
+
+### (2025.11) KernelBand: Boosting LLM-based Kernel Optimization with a Hierarchical and Hardware-aware Multi-armed Bandit
+
+> 📃 [Paper](https://arxiv.org/abs/2511.18868)
 
 ### (2025.11) [AAAI 2026] QiMeng-Kernel: Macro-Thinking Micro-Coding Paradigm for LLM-Based High-Performance GPU Kernel Generation
 
