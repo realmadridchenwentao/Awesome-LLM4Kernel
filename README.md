@@ -43,11 +43,13 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [TritonGym](#202510-tritongym-a-benchmark-for-agentic-llm-workflows-in-triton-gpu-code-generation): Torch2Triton
 - [CudaForge](#202511-cudaforge-an-agent-framework-with-hardware-feedback-for-cuda-kernel-optimization): Torch2CUDA
 - [PRAGMA](#202511-pragma-a-profiling-reasoned-multi-agent-framework-for-automatic-kernel-optimization): Torch2CUDA
+- [KForge](#202511-kforge-program-synthesis-for-diverse-ai-hardware-accelerators): Torch2CUDA, Torch2MPS (Metal Performance Shaders, Apple)
 - [KernelFalcon](#202511-kernelfalcon-autonomous-gpu-kernel-generation-via-deep-agents): Torch2CUDA
 - [PIKE-B](#202511-optimizing-pytorch-inference-with-llm-based-multi-agent-systems): Torch2CUDA
 - [QiMeng-Kernel](#202511-aaai-2026-qimeng-kernel-macro-thinking-micro-coding-paradigm-for-llm-based-high-performance-gpu-kernel-generation): Torch2CUDA
 - [TritonForge](#202512-tritonforge-profiling-guided-framework-for-automated-triton-kernel-optimization): Torch2Triton
-- [cuPilot](#202512-cupilot-a-strategy-coordinated-multi-agent-framework-for-cuda-kernel-evolution)
+- [TritorX](#202512-agentic-operator-generation-for-ml-asics): Torch2Triton (Triton-MTIA: Meta Training and Inference Accelerator)
+- [cuPilot](#202512-cupilot-a-strategy-coordinated-multi-agent-framework-for-cuda-kernel-evolution): Torch2CUDA
 
 ### 💻 C / C++ Related
 
@@ -58,6 +60,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 - [ComputeEval](#202504-computeeval-evaluating-large-language-models-for-cuda-code-generation): Text2CUDA
 - [CUDA-LLM](#202506-cuda-llm-llms-can-write-efficient-cuda-kernels): Text2CUDA
+- [PEAK](#202512-peak-performance-engineering-ai-assistant-for-gpu-kernels-powered-by-natural-language-transformations): Text2CUDA, Text2HIP (AMD), TextHLSL (High-Level Shader Language, Microsoft)
 
 ### 🧩 Other Paradigms
 
@@ -69,6 +72,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [ReGraphT](#202510-from-large-to-small-transferring-cuda-optimization-expertise-via-reasoning-graph): CUDA2CUDA
 - [SparseRL](#202510-mastering-sparse-cuda-generation-through-pretrained-models-and-deep-reinforcement-learning): CUDA
 - [MaxCode](#202510-maxcode-a-max-reward-reinforcement-learning-framework-for-automated-code-optimization): CUDA2CUDA
+- [AccelOpt](#202511-accelOpt-a-self-improving-llm-agentic-system-for-ai-accelerator-kernel-optimization): NKI2NKI (Neuron Kernel Interface, AWS Trainium accelerator) 
 - [CUDA-L2](#202512-cuda-l2-surpassing-cublas-performance-for-matrix-multiplication-through-reinforcement-learning): `Half-precision General Matrix Multiply (HGEMM)`
 
 ## 🎯 By Technical Focus
@@ -99,7 +103,6 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [QiMeng-Kernel](#202511-aaai-2026-qimeng-kernel-macro-thinking-micro-coding-paradigm-for-llm-based-high-performance-gpu-kernel-generation): RL (RLVR)
 - [CUDA-L2](#202512-cuda-l2-surpassing-cublas-performance-for-matrix-multiplication-through-reinforcement-learning): RL
 
-
 ### 🔁 Self-Refinement & Iterative Optimization
 
 - [CUDA-LLM](#202506-cuda-llm-llms-can-write-efficient-cuda-kernels): Single LLM
@@ -113,10 +116,14 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [STARK](#202510-stark-strategic-team-of-agents-for-refining-kernels): Agents
 - [CudaForge](#202511-cudaforge-an-agent-framework-with-hardware-feedback-for-cuda-kernel-optimization): Agents
 - [PRAGMA](#202511-pragma-a-profiling-reasoned-multi-agent-framework-for-automatic-kernel-optimization): Agents
+- [KForge](#202511-kforge-program-synthesis-for-diverse-ai-hardware-accelerators): Agents
+- [AccelOpt](#202511-accelOpt-a-self-improving-llm-agentic-system-for-ai-accelerator-kernel-optimization): Agents
 - [KernelFalcon](#202511-kernelfalcon-autonomous-gpu-kernel-generation-via-deep-agents): Agents
 - [PIKE-B](#202511-optimizing-pytorch-inference-with-llm-based-multi-agent-systems): Agents
 - [TritonForge](#202512-tritonforge-profiling-guided-framework-for-automated-triton-kernel-optimization): Multiple LLMs (`Test Generation`, `Kernel Optimization`)
-- [cuPilot](#202512-cupilot-a-strategy-coordinated-multi-agent-framework-for-cuda-kernel-evolution)
+- [TritorX](#202512-agentic-operator-generation-for-ml-asics): Agents
+- [cuPilot](#202512-cupilot-a-strategy-coordinated-multi-agent-framework-for-cuda-kernel-evolution): Agents
+- [PEAK](#202512-peak-performance-engineering-ai-assistant-for-gpu-kernels-powered-by-natural-language-transformations): Single LLM (`Natural Language Transformations`)
 
 ### 🧩 Other Methods
 
@@ -133,7 +140,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 >  
 > 🛠️ [Code](https://github.com/ScalingIntelligence/KernelBench) ![Stars](https://img.shields.io/github/stars/ScalingIntelligence/KernelBench.svg)
 
-### (2025.02) TritonBench: Benchmarking Large Language Model Capabilities for Generating Triton Operators
+### (2025.02) [ACL Findings 2025] TritonBench: Benchmarking Large Language Model Capabilities for Generating Triton Operators
 
 > 📃 [Paper](https://arxiv.org/abs/2502.14752)
 >  
@@ -271,9 +278,21 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 >  
 > 🛠️ [Code](https://github.com/meta-pytorch/KernelAgent) ![Stars](https://img.shields.io/github/stars/meta-pytorch/KernelAgent.svg)
 
+### (2025.11) KForge: Program Synthesis for Diverse AI Hardware Accelerators
+
+> 📃 [Paper](https://arxiv.org/abs/2511.13274)
+
+### (2025.11) AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2511.15915)
+
 ### (2025.11) Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems
 
 > 📃 [Paper](https://arxiv.org/abs/2511.16964)
+
+### (2025.11) KernelBand: Boosting LLM-based Kernel Optimization with a Hierarchical and Hardware-aware Multi-armed Bandit
+
+> 📃 [Paper](https://arxiv.org/abs/2511.18868)
 
 ### (2025.11) [AAAI 2026] QiMeng-Kernel: Macro-Thinking Micro-Coding Paradigm for LLM-Based High-Performance GPU Kernel Generation
 
@@ -289,9 +308,19 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2512.09196)
 
+### (2025.12) Agentic Operator Generation for ML ASICs
+
+> 📃 [Paper](https://arxiv.org/abs/2512.10977)
+
 ### (2025.12) cuPilot: A Strategy-Coordinated Multi-agent Framework for CUDA Kernel Evolution
 
 > 📃 [Paper](https://arxiv.org/abs/2512.16465)
+>  
+> 🛠️ [Code](https://github.com/champloo2878/cuPilot-Kernels) ![Stars](https://img.shields.io/github/stars/champloo2878/cuPilot-Kernels.svg)
+
+### (2025.12) PEAK: A Performance Engineering AI-Assistant for GPU Kernels Powered by Natural Language Transformations
+
+> 📃 [Paper](https://arxiv.org/abs/2512.19018)
 
 ---
 
