@@ -27,19 +27,19 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 ### ⚡ Torch Related
 
 - [KernelBench](#202502-icml-2025-kernelbench-can-llms-write-efficient-gpu-kernels): Torch2CUDA, (Torch2Triton, Torch2CuTe, Torch2TileLang)
-- [TritonBench](#202502-tritonbench-benchmarking-large-language-model-capabilities-for-generating-triton-operators): Torch2Triton
+- [TritonBench](#202502-acl-findings-2025-tritonbench-benchmarking-large-language-model-capabilities-for-generating-triton-operators): Torch2Triton
 - [KernelLLM](#202504-making-kernel-development-more-accessible-with-kernelllm): Torch2Triton
 - [GPU Kernel Scientist](#202506-gpu-kernel-scientist-an-llm-driven-framework-for-iterative-kernel-optimization): Torch2HIP (AMD)
 - [AutoTriton](#202507-autotriton-automatic-triton-programming-with-reinforcement-learning-in-llms): Torch2Triton
 - [Kevin](#202507-kevin-multi-turn-rl-for-generating-cuda-kernels): Torch2CUDA
-- [CUDA-L1](#202507-cuda-l1-improving-cuda-optimization-via-contrastive-reinforcement-learning): Torch2CUDA
+- [CUDA-L1](#202507-iclr-2026-cuda-l1-improving-cuda-optimization-via-contrastive-reinforcement-learning): Torch2CUDA
 - [MultiKernelBench](#202507-multikernelbench-a-multi-platform-benchmark-for-kernel-generation): Torch2CUDA, Torch2AscendC (Huawei NPU), Torch2Pallas (Google TPU)
 - [GEAK](#202507-geak-introducing-triton-kernel-ai-agent--evaluation-benchmarks): Torch2Triton
 - [CudaLLM](#202508-cudallm-training-language-models-to-generate-high-performance-cuda-kernels): Torch2CUDA
 - [Robust-KBench](#202509-towards-robust-agentic-cuda-kernel-benchmarking-verification-and-optimization): Torch2CUDA
 - [ConCuR](#202510-concur-conciseness-makes-state-of-the-art-kernel-generation): Torch2CUDA
 - [TritonRL](#202510-tritonrl-training-llms-to-think-and-code-triton-without-cheating): Torch2Triton
-- [STARK](#202510-stark-strategic-team-of-agents-for-refining-kernels): Torch2CUDA
+- [STARK](#202510-iclr-2026-stark-strategic-team-of-agents-for-refining-kernels): Torch2CUDA
 - [TritonGym](#202510-tritongym-a-benchmark-for-agentic-llm-workflows-in-triton-gpu-code-generation): Torch2Triton
 - [CudaForge](#202511-cudaforge-an-agent-framework-with-hardware-feedback-for-cuda-kernel-optimization): Torch2CUDA
 - [PRAGMA](#202511-pragma-a-profiling-reasoned-multi-agent-framework-for-automatic-kernel-optimization): Torch2CUDA
@@ -50,8 +50,15 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [TritonForge](#202512-tritonforge-profiling-guided-framework-for-automated-triton-kernel-optimization): Torch2Triton
 - [TritorX](#202512-agentic-operator-generation-for-ml-asics): Torch2Triton (Triton-MTIA: Meta Training and Inference Accelerator)
 - [cuPilot](#202512-cupilot-a-strategy-coordinated-multi-agent-framework-for-cuda-kernel-evolution): Torch2CUDA
-- [KernelEvolve](#202512-kernelevolve-scaling-agentic-kernel-coding-for-heterogeneous-ai-accelerators-at-meta): Torch2Triton (Triton-MTIA: Meta Training and Inference Accelerator)
-- [AKG kernel Agent](#202512-akg-kernel-agent-a-multi-agent-framework-for-cross-platform-kernel-synthesis): Torch2Triton (CUDA and Ascend), Torch2CPP, Torch2TileLang, Torch2CUDA
+- [AKG kernel Agent](#202512-akg-kernel-agent-a-multi-agent-framework-for-cross-platform-kernel-synthesis): Torch2Triton, Torch2TileLang, Torch2CUDA
+- [AscendCraft](#202601-ascendcraft-automatic-ascend-npu-kernel-generation-via-dsl-guided-transcompilation): Torch2AscendC (Huawei NPU)
+- [Dr. Kernel](#202602-dr-kernel-reinforcement-learning-done-right-for-triton-kernel-generations): Torch2Triton
+- [Makora](#202602-fine-tuning-gpt-5-for-gpu-kernel-generation): Torch2CUDA
+- [DICE](#202602-dice-diffusion-large-language-models-excel-at-generating-cuda-kernels): Torch2CUDA
+- [KernelBlaster](#202602-kernelblaster-continual-cross-task-cuda-optimization-via-memory-augmented-in-context-reinforcement-learning): Torch2CUDA
+- [CUDA Agent](#202602-cuda-agent-large-scale-agentic-rl-for-high-performance-cuda-kernel-generation): Torch2CUDA
+- [StitchCUDA](#202603-stitchcuda-an-automated-multi-agents-end-to-end-gpu-programing-framework-with-rubric-based-agentic-reinforcement-learning): Torch2CUDA
+
 
 ### 💻 C / C++ Related
 
@@ -62,8 +69,12 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 - [ComputeEval](#202504-computeeval-evaluating-large-language-models-for-cuda-code-generation): Text2CUDA
 - [CUDA-LLM](#202506-cuda-llm-llms-can-write-efficient-cuda-kernels): Text2CUDA
-- [PEAK](#202512-peak-performance-engineering-ai-assistant-for-gpu-kernels-powered-by-natural-language-transformations): Text2CUDA, Text2HIP (AMD), TextHLSL (High-Level Shader Language, Microsoft)
+- [PEAK](#202512-peak-a-performance-engineering-ai-assistant-for-gpu-kernels-powered-by-natural-language-transformations): Text2CUDA, Text2HIP (AMD), TextHLSL (High-Level Shader Language, Microsoft)
 - [AscendKernelGen](#202601-ascendkernelgen-a-systematic-study-of-llm-based-kernel-generation-for-neural-processing-units): Text2AscendC (Huawei NPU)
+- [KernelEvolve](#202512-kernelevolve-scaling-agentic-kernel-coding-for-heterogeneous-ai-accelerators-at-meta): Text2Triton
+- [PACEvolve](202601-pacevolve-enabling-long-horizon-progress-aware-consistent-evolution): Text2CUDA
+- [OptiML](#202602-optiml-an-end-to-end-framework-for-program-synthesis-and-cuda-kernel-optimization): Text2CUDA
+- [K-Search](#202602-k-search-llm-kernel-generation-via-co-evolving-intrinsic-world-model): Text2CUDA
 
 ### 🧩 Other Paradigms
 
@@ -73,23 +84,29 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [EvoEngineer](#202510-evoengineer-mastering-automated-cuda-kernel-code-evolution-with-large-language-models): CUDA2CUDA
 - [Performance Tool](#202510-integrating-performance-tools-in-model-reasoning-for-gpu-kernel-optimization): CUDA2CUDA
 - [ReGraphT](#202510-from-large-to-small-transferring-cuda-optimization-expertise-via-reasoning-graph): CUDA2CUDA
-- [SparseRL](#202510-mastering-sparse-cuda-generation-through-pretrained-models-and-deep-reinforcement-learning): CUDA
+- [SparseRL](#202510-iclr-2026-mastering-sparse-cuda-generation-through-pretrained-models-and-deep-reinforcement-learning): CUDA
 - [MaxCode](#202510-maxcode-a-max-reward-reinforcement-learning-framework-for-automated-code-optimization): CUDA2CUDA
 - [AccelOpt](#202511-accelOpt-a-self-improving-llm-agentic-system-for-ai-accelerator-kernel-optimization): NKI2NKI (Neuron Kernel Interface, AWS Trainium accelerator) 
 - [CUDA-L2](#202512-cuda-l2-surpassing-cublas-performance-for-matrix-multiplication-through-reinforcement-learning): `Half-precision General Matrix Multiply (HGEMM)`
-- [Optimize-MEP](#202512-gpu-kernel-optimization-beyond-full-builds-an-llm-framework-with-minimal-executable-programs): Kernel Optimization (CUDA and HIP)
+- [MEP-based LLM framework](#202512-gpu-kernel-optimization-beyond-full-builds-an-llm-framework-with-minimal-executable-programs): CUDA2CUDA
+- [Two-Stage GPU Kernel Tuner](#202601-a-two-stage-gpu-kernel-tuner-combining-semantic-refactoring-and-search-based-optimization): CUDA2CUDA
+- [CUDAMaster](#202603-making-llms-optimize-multi-scenario-cuda-kernels-like-experts): CUDA2CUDA
 
 ## 🎯 By Technical Focus
 
 ### 📊 Benchmarks
 
 - [KernelBench](#202502-icml-2025-kernelbench-can-llms-write-efficient-gpu-kernels): Torch2CUDA, (Torch2Triton, Torch2CuTe, Torch2TileLang)
-- [TritonBench](#202502-tritonbench-benchmarking-large-language-model-capabilities-for-generating-triton-operators): Torch2Triton
+- [TritonBench](#202502-acl-findings-2025-tritonbench-benchmarking-large-language-model-capabilities-for-generating-triton-operators): Torch2Triton
 - [ComputeEval](#202504-computeeval-evaluating-large-language-models-for-cuda-code-generation): Text2CUDA
 - [HPCTransEval & KernelBench_C](#202506-hpctranscompile-an-ai-compiler-generated-dataset-for-high-performance-cuda-transpilation-and-llm-preliminary-exploration): CUDA2C / C++
 - [BabelTower](#202506-neurips-2025-qimeng-mupa-mutual-supervised-learning-for-sequential-to-parallel-code-translation): C++2CUDA
 - [MultiKernelBench](#202507-multikernelbench-a-multi-platform-benchmark-for-kernel-generation): Torch2CUDA, Torch2AscendC (Huawei NPU), Torch2Pallas (Google TPU)
 - [TritonGym](#202510-tritongym-a-benchmark-for-agentic-llm-workflows-in-triton-gpu-code-generation): Torch2Triton
+- [FlashInfer-Bench](#202601-flashinfer-bench-building-the-virtuous-cycle-for-ai-driven-llm-systems): CUDA/Triton Optimization
+- [CUDABench](#202603-cudabench-benchmarking-llms-for-text-to-cuda-generation): Text2CUDA
+- [MobileKernelBench](#202603-iclr-workshop-2026-mobilekernelbench-can-llms-write-efficient-kernels-for-mobile-devices?): (Torch, ONNX) Pairs2CUDA
+- [MSKernelBench](#202603-making-llms-optimize-multi-scenario-cuda-kernels-like-experts): Text2CUDA
 
 ### ⚙️ Fine-tuning for Kernel Generation
 
@@ -98,15 +115,18 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [QiMeng-MuPa](#202506-neurips-2025-qimeng-mupa-mutual-supervised-learning-for-sequential-to-parallel-code-translation): SFT
 - [AutoTriton](#202507-autotriton-automatic-triton-programming-with-reinforcement-learning-in-llms): SFT + RL (GRPO)
 - [Kevin](#202507-kevin-multi-turn-rl-for-generating-cuda-kernels): Multi-turn RL (GRPO)
-- [CUDA-L1](#202507-cuda-l1-improving-cuda-optimization-via-contrastive-reinforcement-learning): Contrastive RL
+- [CUDA-L1](#202507-iclr-2026-cuda-l1-improving-cuda-optimization-via-contrastive-reinforcement-learning): Contrastive RL
 - [CudaLLM](#202508-cudallm-training-language-models-to-generate-high-performance-cuda-kernels): SFT + RL
 - [ConCuR](#202510-concur-conciseness-makes-state-of-the-art-kernel-generation): SFT
 - [TritonRL](#202510-tritonrl-training-llms-to-think-and-code-triton-without-cheating): SFT + RL (GRPO)
 - [Performance Tool](#202510-integrating-performance-tools-in-model-reasoning-for-gpu-kernel-optimization): RL (GRPO)
-- [SparseRL](#202510-mastering-sparse-cuda-generation-through-pretrained-models-and-deep-reinforcement-learning): Pretrain + SFT + RL
+- [SparseRL](#202510-iclr-2026-mastering-sparse-cuda-generation-through-pretrained-models-and-deep-reinforcement-learning): Pretrain + SFT + RL
 - [QiMeng-Kernel](#202511-aaai-2026-qimeng-kernel-macro-thinking-micro-coding-paradigm-for-llm-based-high-performance-gpu-kernel-generation): RL (RLVR)
 - [CUDA-L2](#202512-cuda-l2-surpassing-cublas-performance-for-matrix-multiplication-through-reinforcement-learning): RL
 - [AscendKernelGen](#202601-ascendkernelgen-a-systematic-study-of-llm-based-kernel-generation-for-neural-processing-units): SFT + RL
+- [Dr. Kernel](#202602-dr-kernel-reinforcement-learning-done-right-for-triton-kernel-generations): RL
+- [Makora](#202602-fine-tuning-gpt-5-for-gpu-kernel-generation): RL
+- [DICE](#202602-dice-diffusion-large-language-models-excel-at-generating-cuda-kernels): SFT + RL
 
 ### 🔁 Self-Refinement & Iterative Optimization
 
@@ -118,7 +138,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [RISC-V Kernels](#202509-evolution-of-kernels-automated-risc-v-kernel-optimization-with-large-language-models): Single LLM
 - [RobustAgent](#202509-towards-robust-agentic-cuda-kernel-benchmarking-verification-and-optimization): Agents
 - [EvoEngineer](#202510-evoengineer-mastering-automated-cuda-kernel-code-evolution-with-large-language-models): Single LLM
-- [STARK](#202510-stark-strategic-team-of-agents-for-refining-kernels): Agents
+- [STARK](#202510-iclr-2026-stark-strategic-team-of-agents-for-refining-kernels): Agents
 - [CudaForge](#202511-cudaforge-an-agent-framework-with-hardware-feedback-for-cuda-kernel-optimization): Agents
 - [PRAGMA](#202511-pragma-a-profiling-reasoned-multi-agent-framework-for-automatic-kernel-optimization): Agents
 - [KForge](#202511-kforge-program-synthesis-for-diverse-ai-hardware-accelerators): Agents
@@ -128,15 +148,24 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [TritonForge](#202512-tritonforge-profiling-guided-framework-for-automated-triton-kernel-optimization): Multiple LLMs (`Test Generation`, `Kernel Optimization`)
 - [TritorX](#202512-agentic-operator-generation-for-ml-asics): Agents
 - [cuPilot](#202512-cupilot-a-strategy-coordinated-multi-agent-framework-for-cuda-kernel-evolution): Agents
-- [PEAK](#202512-peak-performance-engineering-ai-assistant-for-gpu-kernels-powered-by-natural-language-transformations): Single LLM (`Natural Language Transformations`)
-- [Optimize-MEP](#202512-gpu-kernel-optimization-beyond-full-builds-an-llm-framework-with-minimal-executable-programs): Multiple LLMs (`MEP Construction` and `Optimization`)
+- [PEAK](#202512-peak-a-performance-engineering-ai-assistant-for-gpu-kernels-powered-by-natural-language-transformations): Single LLM (`Natural Language Transformations`)
+- [MEP-based LLM framework](#202512-gpu-kernel-optimization-beyond-full-builds-an-llm-framework-with-minimal-executable-programs): Multiple LLMs
 - [KernelEvolve](#202512-kernelevolve-scaling-agentic-kernel-coding-for-heterogeneous-ai-accelerators-at-meta): Agents
 - [AKG kernel Agent](#202512-akg-kernel-agent-a-multi-agent-framework-for-cross-platform-kernel-synthesis): Agents
+- [PACEvolve](202601-pacevolve-enabling-long-horizon-progress-aware-consistent-evolution): Single LLM
+- [Two-Stage GPU Kernel Tuner](#202601-a-two-stage-gpu-kernel-tuner-combining-semantic-refactoring-and-search-based-optimization): Agents
+- [AscendCraft](#202601-ascendcraft-automatic-ascend-npu-kernel-generation-via-dsl-guided-transcompilation): Multiple LLMs (`DSL Code Generation`, `Transcompilation`)
+- [KernelBlaster](#202602-kernelblaster-continual-cross-task-cuda-optimization-via-memory-augmented-in-context-reinforcement-learning): Agentic RL
+- [CUDA Agent](#202602-cuda-agent-large-scale-agentic-rl-for-high-performance-cuda-kernel-generation): Agentic RL
+- [StitchCUDA](#202603-stitchcuda-an-automated-multi-agents-end-to-end-gpu-programing-framework-with-rubric-based-agentic-reinforcement-learning): Agentic RL
+- [CUDAMaster](#202603-making-llms-optimize-multi-scenario-cuda-kernels-like-experts): Agents
 
 ### 🧩 Other Methods
 
 - [ReGraphT](#202510-from-large-to-small-transferring-cuda-optimization-expertise-via-reasoning-graph): Reasoning Graph + Monte Carol Search
 - [MaxCode](#202510-maxcode-a-max-reward-reinforcement-learning-framework-for-automated-code-optimization): Classical RL
+- [OptiML](#202602-optiml-an-end-to-end-framework-for-program-synthesis-and-cuda-kernel-optimization): OptiML-G (Generate initial kernels) + OptiML-X (Optimizes kernels via Monte Carol Tree Search)
+- [K-Search](#202602-k-search-llm-kernel-generation-via-co-evolving-intrinsic-world-model): Search via Co-Evolving World Models
 
 ---
 
@@ -187,12 +216,14 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 > 📃 [Paper](https://arxiv.org/abs/2507.05687)
 >  
 > 🛠️ [Code](https://github.com/AI9Stars/AutoTriton) ![Stars](https://img.shields.io/github/stars/AI9Stars/AutoTriton.svg)
+>
+> 🤗 [Model](https://huggingface.co/ai9stars/AutoTriton)
 
 ### (2025.07) Kevin: Multi-Turn RL for Generating CUDA Kernels
 
 > 📃 [Paper](https://arxiv.org/abs/2507.11948)
 
-### (2025.07) CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning
+### (2025.07) [ICLR 2026] CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning
 
 > 📃 [Paper](https://arxiv.org/abs/2507.14111)
 >  
@@ -241,12 +272,14 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 ### (2025.10) ConCuR: Conciseness Makes State-of-the-Art Kernel Generation
 
 > 📃 [Paper](https://arxiv.org/abs/2510.07356)
+>
+> 🤗 [Model](https://huggingface.co/lkongam/KernelCoder)
 
 ### (2025.10) TritonRL: Training LLMs to Think and Code Triton Without Cheating
 
 > 📃 [Paper](https://arxiv.org/abs/2510.17891)
 
-### (2025.10) STARK: Strategic Team of Agents for Refining Kernels
+### (2025.10) [ICLR 2026] STARK: Strategic Team of Agents for Refining Kernels
 
 > 📃 [Paper](https://arxiv.org/abs/2510.16996)
 
@@ -258,9 +291,11 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2510.19873)
 
-### (2025.10) Mastering Sparse CUDA Generation through Pretrained Models and Deep Reinforcement Learning
+### (2025.10) [ICLR 2026] Mastering Sparse CUDA Generation through Pretrained Models and Deep Reinforcement Learning
 
 > 📃 [Paper](https://openreview.net/forum?id=VdLEaGPYWT)
+>  
+> 🛠️ [Code](https://github.com/QiWu-NCIC/SparseRL) ![Stars](https://img.shields.io/github/stars/QiWu-NCIC/SparseRL.svg)
 
 ### (2025.10) TritonGym: A Benchmark for Agentic LLM Workflows in Triton GPU Code Generation
 
@@ -290,7 +325,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2511.13274)
 
-### (2025.11) AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization
+### (2025.11) [MLSys 2026] AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization
 
 > 📃 [Paper](https://arxiv.org/abs/2511.15915)
 
@@ -342,9 +377,81 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2512.23424)
 
+### (2026.01) FlashInfer-Bench: Building the Virtuous Cycle for AI-driven LLM Systems
+
+> 📃 [Paper](https://arxiv.org/abs/2601.00227)
+
 ### (2026.01) AscendKernelGen: A Systematic Study of LLM-Based Kernel Generation for Neural Processing Units
 
 > 📃 [Paper](https://arxiv.org/abs/2601.07160)
+
+### (2026.01) PACEvolve: Enabling Long-Horizon Progress-Aware Consistent Evolution
+
+> 📃 [Paper](https://arxiv.org/abs/2601.10657)
+
+### (2026.01) A Two-Stage GPU Kernel Tuner Combining Semantic Refactoring and Search-Based Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2601.12698)
+
+### (2026.01) AscendCraft: Automatic Ascend NPU Kernel Generation via DSL-Guided Transcompilation
+
+> 📃 [Paper](https://arxiv.org/abs/2601.22760)
+
+### (2026.02) Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations
+
+> 📃 [Paper](https://arxiv.org/abs/2602.05885)
+>  
+> 🛠️ [Code](https://github.com/hkust-nlp/KernelGYM) ![Stars](https://img.shields.io/github/stars/hkust-nlp/KernelGYM.svg)
+>
+> 🤗 [Model](https://huggingface.co/collections/hkust-nlp/drkernel)
+
+### (2026.02) Fine-Tuning GPT-5 for GPU Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2602.11000)
+
+### (2026.02) DICE: Diffusion Large Language Models Excel at Generating CUDA Kernels
+
+> 📃 [Paper](https://arxiv.org/abs/2602.11715)
+>
+> 🤗 [Model](https://huggingface.co/collections/DeadlyKitt3n/dice)
+
+### (2026.02) OptiML: An End-to-End Framework for Program Synthesis and CUDA Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2602.12305)
+
+### (2026.02) KernelBlaster: Continual Cross-Task CUDA Optimization via Memory-Augmented In-Context Reinforcement Learning
+
+> 📃 [Paper](https://arxiv.org/abs/2602.14293)
+
+### (2026.02) K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model
+
+> 📃 [Paper](https://arxiv.org/abs/2602.19128)
+>  
+> 🛠️ [Code](https://github.com/caoshiyi/K-Search) ![Stars](https://img.shields.io/github/stars/caoshiyi/K-Search.svg)
+
+### (2026.02) CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2602.24286)
+>  
+> 🛠️ [Code](https://github.com/BytedTsinghua-SIA/CUDA-Agent) ![Stars](https://img.shields.io/github/stars/BytedTsinghua-SIA/CUDA-Agent.svg)
+
+### (2026.03) CUDABench: Benchmarking LLMs for Text-to-CUDA Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2603.02236)
+>  
+> 🛠️ [Code](https://github.com/CUDA-Bench/CUDABench) ![Stars](https://img.shields.io/github/stars/CUDA-Bench/CUDABench.svg)
+
+### (2026.03) StitchCUDA: An Automated Multi-Agents End-to-End GPU Programing Framework with Rubric-based Agentic Reinforcement Learning
+
+> 📃 [Paper](https://arxiv.org/abs/2603.02637)
+
+### (2026.03) [ICLR Workshop 2026] MobileKernelBench: Can LLMs Write Efficient Kernels for Mobile Devices?
+
+> 📃 [Paper](https://openreview.net/pdf?id=bTsMfGz85R)
+
+### (2026.03) Making LLMs Optimize Multi-Scenario CUDA Kernels Like Experts
+
+> 📃 [Paper](https://arxiv.org/abs/2603.07169)
 
 ---
 
