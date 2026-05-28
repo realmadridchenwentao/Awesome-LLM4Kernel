@@ -31,7 +31,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [KernelLLM](#202504-making-kernel-development-more-accessible-with-kernelllm): Torch2Triton
 - [GPU Kernel Scientist](#202506-gpu-kernel-scientist-an-llm-driven-framework-for-iterative-kernel-optimization): Torch2HIP (AMD)
 - [AutoTriton](#202507-autotriton-automatic-triton-programming-with-reinforcement-learning-in-llms): Torch2Triton
-- [Kevin](#202507-kevin-multi-turn-rl-for-generating-cuda-kernels): Torch2CUDA
+- [Kevin](#202507-iclr-2026-kevin-multi-turn-rl-for-generating-cuda-kernels): Torch2CUDA
 - [CUDA-L1](#202507-iclr-2026-cuda-l1-improving-cuda-optimization-via-contrastive-reinforcement-learning): Torch2CUDA
 - [MultiKernelBench](#202507-multikernelbench-a-multi-platform-benchmark-for-kernel-generation): Torch2CUDA, Torch2AscendC (Huawei NPU), Torch2Pallas (Google TPU)
 - [GEAK](#202507-geak-introducing-triton-kernel-ai-agent--evaluation-benchmarks): Torch2Triton
@@ -57,7 +57,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [DICE](#202602-dice-diffusion-large-language-models-excel-at-generating-cuda-kernels): Torch2CUDA
 - [KernelBlaster](#202602-kernelblaster-continual-cross-task-cuda-optimization-via-memory-augmented-in-context-reinforcement-learning): Torch2CUDA
 - [CUDA Agent](#202602-cuda-agent-large-scale-agentic-rl-for-high-performance-cuda-kernel-generation): Torch2CUDA
-- [StitchCUDA](#202603-stitchcuda-an-automated-multi-agents-end-to-end-gpu-programing-framework-with-rubric-based-agentic-reinforcement-learning): Torch2CUDA
+- [StitchCUDA](#202603-icml-2026-stitchcuda-an-automated-multi-agents-end-to-end-gpu-programing-framework-with-rubric-based-agentic-reinforcement-learning): Torch2CUDA
 
 
 ### 💻 C / C++ Related
@@ -114,7 +114,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [HPCTransCompile](#202506-hpctranscompile-an-ai-compiler-generated-dataset-for-high-performance-cuda-transpilation-and-llm-preliminary-exploration): SFT
 - [QiMeng-MuPa](#202506-neurips-2025-qimeng-mupa-mutual-supervised-learning-for-sequential-to-parallel-code-translation): SFT
 - [AutoTriton](#202507-autotriton-automatic-triton-programming-with-reinforcement-learning-in-llms): SFT + RL (GRPO)
-- [Kevin](#202507-kevin-multi-turn-rl-for-generating-cuda-kernels): Multi-turn RL (GRPO)
+- [Kevin](#202507-iclr-2026-kevin-multi-turn-rl-for-generating-cuda-kernels): Multi-turn RL (GRPO)
 - [CUDA-L1](#202507-iclr-2026-cuda-l1-improving-cuda-optimization-via-contrastive-reinforcement-learning): Contrastive RL
 - [CudaLLM](#202508-cudallm-training-language-models-to-generate-high-performance-cuda-kernels): SFT + RL
 - [ConCuR](#202510-concur-conciseness-makes-state-of-the-art-kernel-generation): SFT
@@ -157,7 +157,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [AscendCraft](#202601-ascendcraft-automatic-ascend-npu-kernel-generation-via-dsl-guided-transcompilation): Multiple LLMs (`DSL Code Generation`, `Transcompilation`)
 - [KernelBlaster](#202602-kernelblaster-continual-cross-task-cuda-optimization-via-memory-augmented-in-context-reinforcement-learning): Agentic RL
 - [CUDA Agent](#202602-cuda-agent-large-scale-agentic-rl-for-high-performance-cuda-kernel-generation): Agentic RL
-- [StitchCUDA](#202603-stitchcuda-an-automated-multi-agents-end-to-end-gpu-programing-framework-with-rubric-based-agentic-reinforcement-learning): Agentic RL
+- [StitchCUDA](#202603-icml-2026-stitchcuda-an-automated-multi-agents-end-to-end-gpu-programing-framework-with-rubric-based-agentic-reinforcement-learning): Agentic RL
 - [CUDAMaster](#202603-making-llms-optimize-multi-scenario-cuda-kernels-like-experts): Agents
 
 ### 🧩 Other Methods
@@ -211,6 +211,10 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2506.20807)
 
+### (2025.06) Omniwise: Predicting GPU Kernels Performance with LLMs
+
+> 📃 [Paper](https://arxiv.org/abs/2506.20886)
+
 ### (2025.07) AutoTriton: Automatic Triton Programming with Reinforcement Learning in LLMs
 
 > 📃 [Paper](https://arxiv.org/abs/2507.05687)
@@ -219,7 +223,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 >
 > 🤗 [Model](https://huggingface.co/ai9stars/AutoTriton)
 
-### (2025.07) Kevin: Multi-Turn RL for Generating CUDA Kernels
+### (2025.07) [ICLR 2026] Kevin: Multi-Turn RL for Generating CUDA Kernels
 
 > 📃 [Paper](https://arxiv.org/abs/2507.11948)
 
@@ -441,7 +445,17 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 >  
 > 🛠️ [Code](https://github.com/CUDA-Bench/CUDABench) ![Stars](https://img.shields.io/github/stars/CUDA-Bench/CUDABench.svg)
 
-### (2026.03) StitchCUDA: An Automated Multi-Agents End-to-End GPU Programing Framework with Rubric-based Agentic Reinforcement Learning
+### (2026.03) CUCo: An Agentic Framework for Compute and Communication Co-design
+
+> 📃 [Paper](https://arxiv.org/abs/2603.02376)
+
+### (2026.03) ParEVO: Synthesizing Code for Irregular Data: High-Performance Parallelism through Agentic Evolution
+
+> 📃 [Paper](https://arxiv.org/abs/2603.02510)
+>  
+> 🛠️ [Code](https://github.com/WildAlg/ParEVO) ![Stars](https://img.shields.io/github/stars/WildAlg/ParEVO.svg)
+
+### (2026.03) [ICML 2026] StitchCUDA: An Automated Multi-Agents End-to-End GPU Programing Framework with Rubric-based Agentic Reinforcement Learning
 
 > 📃 [Paper](https://arxiv.org/abs/2603.02637)
 
@@ -453,7 +467,205 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2603.07169)
 
----
+### (2026.03) KernelCraft: Benchmarking for Agentic Close-to-Metal Kernel Generation on Emerging Hardware
+
+> 📃 [Paper](https://arxiv.org/abs/2603.08721)
+
+### (2026.03) KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2603.10085)
+>
+> 🛠️ [Code](https://github.com/0satan0/KernelMem) ![Stars](https://img.shields.io/github/stars/0satan0/KernelMem.svg)
+
+### (2026.03) Towards Cold-Start Drafting and Continual Refining: A Value-Driven Memory Approach with Application to NPU Kernel Synthesis
+
+> 📃 [Paper](https://arxiv.org/abs/2603.10846)
+
+### (2026.03) KernelFoundry: Hardware-aware evolutionary GPU kernel optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2603.12440)
+
+### (2026.03) [ICLR Workshop 2026] Reward Hacking in Self-Improving Code Agents
+
+> 📃 [Paper](https://openreview.net/pdf?id=ikrQWGgxYg)
+
+### (2026.03) SemRep: Generative Code Representation Learning with Code Transformations
+
+> 📃 [Paper](https://arxiv.org/abs/2603.13640)
+
+### (2026.03) POLCA: Stochastic Generative Optimization with LLM
+
+> 📃 [Paper](https://arxiv.org/abs/2603.14769)
+>
+> 🛠️ [Code](https://github.com/rlx-lab/POLCA) ![Stars](https://img.shields.io/github/stars/rlx-lab/POLCA.svg)
+
+### (2026.03) InCoder-32B: Code Foundation Model for Industrial Scenarios
+
+> 📃 [Paper](https://arxiv.org/abs/2603.16790)
+>  
+> 🛠️ [Code](https://github.com/CSJianYang/Industrial-Coder) ![Stars](https://img.shields.io/github/stars/CSJianYang/Industrial-Coder.svg)
+>
+> 🤗 [Model](https://huggingface.co/Multilingual-Multimodal-NLP/IndustrialCoder)
+
+### (2026.03) SOL-ExecBench: Speed-of-Light Benchmarking for Real-World GPU Kernels Against Hardware Limits
+
+> 📃 [Paper](https://arxiv.org/abs/2603.19173)
+>  
+> 🛠️ [Code](https://github.com/NVIDIA/SOL-ExecBench) ![Stars](https://img.shields.io/github/stars/NVIDIA/SOL-ExecBench.svg)
+
+### (2026.03) AutoKernel: Autonomous GPU Kernel Optimization via Iterative Agent-Driven Search
+
+> 📃 [Paper](https://arxiv.org/abs/2603.21331)
+>  
+> 🛠️ [Code](https://github.com/RightNow-AI/autokernel) ![Stars](https://img.shields.io/github/stars/RightNow-AI/autokernel.svg)
+
+### (2026.03) DRTriton: Large-Scale Synthetic Data Reinforcement Learning for Triton Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2603.21465)
+
+### (2026.03) AscendOptimizer: Episodic Agent for Ascend NPU Operator Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2603.23566)
+>  
+> 🛠️ [Code](https://github.com/KernelHive/AscendOptimizer) ![Stars](https://img.shields.io/github/stars/KernelHive/AscendOptimizer.svg)
+
+### (2026.03) AVO: Agentic Variation Operators for Autonomous Evolutionary Search
+
+> 📃 [Paper](https://arxiv.org/abs/2603.24517)
+
+### (2026.03) Agent Factories for High Level Synthesis: How Far Can General-Purpose Coding Agents Go in Hardware Optimization?
+
+> 📃 [Paper](https://arxiv.org/abs/2603.25719)
+
+### (2026.03) Kernel-Smith: A Unified Recipe for Evolutionary Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2603.28342)
+
+### (2026.03) Improving Efficiency of GPU Kernel Optimization Agents using a Domain-Specific Language and Speed-of-Light Guidance
+
+> 📃 [Paper](https://arxiv.org/abs/2603.29010)
+
+### (2026.04) CuTeGen: An LLM-Based Agentic Framework for Generation and Optimization of High-Performance GPU Kernels using CuTe
+
+> 📃 [Paper](https://arxiv.org/abs/2604.01489)
+
+### (2026.04) AlphaLab: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs
+
+> 📃 [Paper](https://arxiv.org/abs/2604.08590)
+>  
+> 🛠️ [Code](https://github.com/morganstanley/MSML/tree/main/projects/alpha-lab) ![Stars](https://img.shields.io/github/stars/morganstanley/MSML.svg)
+
+### (2026.04) Benchmarking Compound AI Applications for Hardware-Software Co-Design
+
+> 📃 [Paper](https://arxiv.org/abs/2604.09593)
+
+### (2026.04) Record-Remix-Replay: Hierarchical GPU Kernel Optimization using Evolutionary Search
+
+> 📃 [Paper](https://arxiv.org/abs/2604.11109)
+
+### (2026.04) AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2604.16625)
+>  
+> 🛠️ [Code](https://github.com/StigLidu/AdaExplore) ![Stars](https://img.shields.io/github/stars/StigLidu/AdaExplore.svg)
+
+### (2026.04) ARGUS: Agentic GPU Optimization Guided by Data-Flow Invariants
+
+> 📃 [Paper](https://arxiv.org/abs/2604.18616)
+
+### (2026.04) Evaluation-driven Scaling for Scientific Discovery
+
+> 📃 [Paper](https://arxiv.org/abs/2604.19341)
+
+### (2026.04) [ACL Findings 2026] What Makes an LLM a Good Optimizer? A Trajectory Analysis of LLM-Guided Evolutionary Search
+
+> 📃 [Paper](https://arxiv.org/abs/XINHAO-ZHANG/LLMEvo_Eval)
+>  
+> 🛠️ [Code](https://github.com/XINHAO-ZHANG/LLMEvo_Eval) ![Stars](https://img.shields.io/github/stars/XINHAO-ZHANG/LLMEvo_Eval.svg)
+
+### (2026.04) Optimas: An Intelligent Analytics-Informed Generative AI Framework for Performance Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2604.23892)
+
+### (2026.04) CUDA Kernel Optimization and Counter-Free Performance Analysis for Depthwise Convolution in Cloud Environments
+
+> 📃 [Paper](https://arxiv.org/abs/2604.25422)
+
+### (2026.04) FACT: Compositional Kernel Synthesis with a Three-Stage Agentic Workflow
+
+> 📃 [Paper](https://arxiv.org/abs/2604.26666)
+
+### (2026.05) Kerncap: Automated Kernel Extraction and Isolation for AMD GPUs
+
+> 📃 [Paper](https://arxiv.org/abs/2605.03208)
+
+### (2026.05) KEET: Explaining Performance of GPU Kernels Using LLM Agents
+
+> 📃 [Paper](https://arxiv.org/abs/2605.04467)
+
+### (2026.05) KernelBenchX: A Comprehensive Benchmark for Evaluating LLM-Generated GPU Kernels
+
+> 📃 [Paper](https://arxiv.org/abs/2605.04956)
+>  
+> 🛠️ [Code](https://github.com/BonnieW05/KernelBenchX) ![Stars](https://img.shields.io/github/stars/BonnieW05/KernelBenchX.svg)
+
+### (2026.05) CuBridge: An LLM-Based Framework for Understanding and Reconstructing High-Performance Attention Kernels
+
+> 📃 [Paper](https://arxiv.org/abs/2605.05023)
+
+### (2026.05) CUDABeaver: Benchmarking LLM-Based Automated CUDA Debugging
+
+> 📃 [Paper](https://arxiv.org/abs/2605.08455)
+
+### (2026.05) CUDAHercules: Benchmarking Hardware-Aware Expert-level CUDA Optimization for LLMs
+
+> 📃 [Paper](https://arxiv.org/abs/2605.08467)
+
+### (2026.05) SkillEvolver: Skill Learning as a Meta-Skill
+
+> 📃 [Paper](https://arxiv.org/abs/2605.10500)
+
+### (2026.05) Source-to-Source Transformations for GPU Code Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2605.13864)
+
+### (2026.05) [ICLR Workshop 2026] DSL-Monkeys: Self-Generated In-Context Examples for Low-Resource GPU DSL Kernels
+
+> 📃 [Paper](https://openreview.net/pdf?id=2yS4j1C3zi)
+
+### (2026.05) AgentKernelArena: Generalization-Aware Benchmarking of GPU Kernel Optimization Agents
+
+> 📃 [Paper](https://arxiv.org/abs/2605.16819)
+>  
+> 🛠️ [Code](https://github.com/AMD-AGI/AgentKernelArena) ![Stars](https://img.shields.io/github/stars/AMD-AGI/AgentKernelArena.svg)
+
+### (2026.05) Prior Knowledge or Search? A Study of LLM Agents in Hardware-Aware Code Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2605.19782)
+
+### (2026.05) optimize_anything: A Universal API for Optimizing any Text Parameter
+
+> 📃 [Paper](https://arxiv.org/abs/2605.19633)
+
+### (2026.05) FastKernels: Benchmarking GPU Kernel Generation in Production
+
+> 📃 [Paper](https://arxiv.org/abs/2605.23215)
+
+### (2026.05) Xe-Forge: Multi-Stage LLM-Powered Kernel Optimization for Intel GPU
+
+> 📃 [Paper](https://arxiv.org/abs/2605.26118)
+
+### (2026.05) [ICML 2026] Towards Feedback-to-Plan Decisions for Self-Evolving LLM Agents in CUDA Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2605.2672)
+
+### (2026.05) SIA: Self Improving AI with Harness & Weight Updates
+
+> 📃 [Paper](https://arxiv.org/abs/2605.27276)
+
+### (2026.05) Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages
+
+> 📃 [Paper](https://arxiv.org/abs/2605.28213)
 
 ## ✨ Contributing
 
