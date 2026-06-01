@@ -239,6 +239,12 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 >  
 > 🛠️ [Code](https://github.com/wzzll123/MultiKernelBench) ![Stars](https://img.shields.io/github/stars/wzzll123/MultiKernelBench.svg)
 
+### (2025.07) [ICLR 2026] GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning
+
+> 📃 [Paper](https://arxiv.org/abs/2507.19457)
+>  
+> 🛠️ [Code](https://github.com/gepa-ai/gepa) ![Stars](https://img.shields.io/github/stars/gepa-ai/gepa.svg)
+
 ### (2025.07) Geak: Introducing Triton Kernel AI Agent & Evaluation Benchmarks
 
 > 📃 [Paper](https://arxiv.org/abs/2507.23194)
@@ -594,10 +600,6 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 ### (2026.04) FACT: Compositional Kernel Synthesis with a Three-Stage Agentic Workflow
 
 > 📃 [Paper](https://arxiv.org/abs/2604.26666)
-
-### (2026.05) Kerncap: Automated Kernel Extraction and Isolation for AMD GPUs
-
-> 📃 [Paper](https://arxiv.org/abs/2605.03208)
 
 ### (2026.05) KEET: Explaining Performance of GPU Kernels Using LLM Agents
 
