@@ -657,7 +657,9 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 ### (2026.05) [ICML 2026] Towards Feedback-to-Plan Decisions for Self-Evolving LLM Agents in CUDA Kernel Generation
 
-> 📃 [Paper](https://arxiv.org/abs/2605.2672)
+> 📃 [Paper](https://arxiv.org/abs/2605.26720)
+>  
+> 🛠️ [Code](https://github.com/yuxuan-z19/cudanalyst) ![Stars](https://img.shields.io/github/stars/yuxuan-z19/cudanalyst.svg)
 
 ### (2026.05) SIA: Self Improving AI with Harness & Weight Updates
 
@@ -670,6 +672,20 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 ### (2026.05) HTAM: Hierarchical Transition-Attended Memory for Operator Optimization
 
 > 📃 [Paper](https://arxiv.org/abs/2605.29734)
+
+### (2026.05) Developing GPU Kernels with Agentic Loops
+
+> 📃 [Paper](https://github.com/mit-han-lab/mlsys2026-flashinfer-contest/blob/main/docs/HAN_Lab_Kernel_Mafia_Technical_Report.pdf)
+>  
+> 🛠️ [Code](https://github.com/mit-han-lab/kernel-design-agents) ![Stars](https://img.shields.io/github/stars/mit-han-lab/kernel-design-agents.svg)
+
+### (2026.05) Kernel Foundry: A Diagnosis-driven Evolutionary Kernel Optimizer with Multi-Experts
+
+> 📃 [Paper](https://arxiv.org/abs/2605.30359)
+
+### (2026.05) GPU Forecasters: Language Models as Selective Surrogates for Kernel Runtime Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2605.31464)
 
 ## ✨ Contributing
 
