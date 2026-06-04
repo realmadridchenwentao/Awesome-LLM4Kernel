@@ -689,6 +689,20 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2605.31464)
 
+### (2026.06) CodegenBench: Can LLMs Write Efficient Code Across Architectures?
+
+> 📃 [Paper](https://arxiv.org/abs/2606.04023)
+
+### (2026.06) MusaCoder: Native GPU Kernel Generation with Full-Stack Training on Moore Threads GPU
+
+> 📃 [Paper](https://arxiv.org/abs/2606.04847)
+
+### (2026.06) AutoLab: Can Frontier Models Solve Long-Horizon Auto Research and Engineering Tasks?
+
+> 📃 [Paper](https://arxiv.org/abs/2606.05080)
+>  
+> 🛠️ [Code](https://github.com/autolabhq/autolab) ![Stars](https://img.shields.io/github/stars/autolabhq/autolab.svg)
+
 ## ✨ Contributing
 
 Welcome to star ⭐ and open an issue or PR to improve this repo!
