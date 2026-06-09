@@ -703,6 +703,12 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 >  
 > 🛠️ [Code](https://github.com/autolabhq/autolab) ![Stars](https://img.shields.io/github/stars/autolabhq/autolab.svg)
 
+### (2026.06) AutoMegaKernel: A Statically-Checked Agent Harness for Self-Retargeting Megakernel Synthesis
+
+> 📃 [Paper](https://arxiv.org/abs/2606.09682)
+>  
+> 🛠️ [Code](https://github.com/RightNow-AI/AutoMegaKernel) ![Stars](https://img.shields.io/github/stars/RightNow-AI/AutoMegaKernel.svg)
+
 ## ✨ Contributing
 
 Welcome to star ⭐ and open an issue or PR to improve this repo!
