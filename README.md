@@ -709,6 +709,14 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 >  
 > 🛠️ [Code](https://github.com/RightNow-AI/AutoMegaKernel) ![Stars](https://img.shields.io/github/stars/RightNow-AI/AutoMegaKernel.svg)
 
+### (2026.06) From Tokens to Regions: CUDA-Sensitive Instruction Tuning for GPU Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2606.16231)
+
+### (2026.06) daVinci-kernel: Co-Evolving Skill Selection, Summarization, and Utilization via RL for GPU Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2606.16497)
+
 ## ✨ Contributing
 
 Welcome to star ⭐ and open an issue or PR to improve this repo!
