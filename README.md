@@ -717,6 +717,30 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2606.16497)
 
+### (2026.06) SpecGen: Accelerating Agentic Kernel Optimization with Speculative Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2606.17518)
+
+### (2026.06) The Correctness Illusion in LLM-Generated GPU Kernels
+
+> 📃 [Paper](https://arxiv.org/abs/2606.20128)
+
+### (2026.06) Optimizing CUDA like a Human: Micro-Profiling Tools as Expert Surrogates for LLM-Based GPU Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2606.26453)
+
+### (2026.06) EGG: An Expert-Guided Agent Framework for Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2606.26758)
+
+### (2026.06) Constraint-aware Optimization in Auto-Tuning
+
+> 📃 [Paper](https://arxiv.org/abs/2606.28372)
+
+### (2026.06) The FIL Hypothesis: Inductive Biases Help with Kernel Engineering
+
+> 📃 [Paper](https://arxiv.org/abs/2606.30442)
+
 ## ✨ Contributing
 
 Welcome to star ⭐ and open an issue or PR to improve this repo!
