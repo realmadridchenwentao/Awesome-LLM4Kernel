@@ -52,7 +52,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [cuPilot](#202512-cupilot-a-strategy-coordinated-multi-agent-framework-for-cuda-kernel-evolution): Torch2CUDA
 - [AKG kernel Agent](#202512-akg-kernel-agent-a-multi-agent-framework-for-cross-platform-kernel-synthesis): Torch2Triton, Torch2TileLang, Torch2CUDA
 - [AscendCraft](#202601-ascendcraft-automatic-ascend-npu-kernel-generation-via-dsl-guided-transcompilation): Torch2AscendC (Huawei NPU)
-- [Dr. Kernel](#202602-dr-kernel-reinforcement-learning-done-right-for-triton-kernel-generations): Torch2Triton
+- [Dr. Kernel](#202602-icml-2026-dr-kernel-reinforcement-learning-done-right-for-triton-kernel-generations): Torch2Triton
 - [Makora](#202602-fine-tuning-gpt-5-for-gpu-kernel-generation): Torch2CUDA
 - [DICE](#202602-dice-diffusion-large-language-models-excel-at-generating-cuda-kernels): Torch2CUDA
 - [KernelBlaster](#202602-kernelblaster-continual-cross-task-cuda-optimization-via-memory-augmented-in-context-reinforcement-learning): Torch2CUDA
@@ -124,7 +124,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 - [QiMeng-Kernel](#202511-aaai-2026-qimeng-kernel-macro-thinking-micro-coding-paradigm-for-llm-based-high-performance-gpu-kernel-generation): RL (RLVR)
 - [CUDA-L2](#202512-cuda-l2-surpassing-cublas-performance-for-matrix-multiplication-through-reinforcement-learning): RL
 - [AscendKernelGen](#202601-ascendkernelgen-a-systematic-study-of-llm-based-kernel-generation-for-neural-processing-units): SFT + RL
-- [Dr. Kernel](#202602-dr-kernel-reinforcement-learning-done-right-for-triton-kernel-generations): RL
+- [Dr. Kernel](#202602-icml-2026-dr-kernel-reinforcement-learning-done-right-for-triton-kernel-generations): RL
 - [Makora](#202602-fine-tuning-gpt-5-for-gpu-kernel-generation): RL
 - [DICE](#202602-dice-diffusion-large-language-models-excel-at-generating-cuda-kernels): SFT + RL
 
@@ -407,7 +407,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2601.22760)
 
-### (2026.02) Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations
+### (2026.02) [ICML 2026] Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations
 
 > 📃 [Paper](https://arxiv.org/abs/2602.05885)
 >  
@@ -716,6 +716,10 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 ### (2026.06) daVinci-kernel: Co-Evolving Skill Selection, Summarization, and Utilization via RL for GPU Kernel Optimization
 
 > 📃 [Paper](https://arxiv.org/abs/2606.16497)
+>  
+> 🛠️ [Code](https://github.com/GAIR-NLP/daVinci-kernel) ![Stars](https://img.shields.io/github/stars/GAIR-NLP/daVinci-kernel.svg)
+>
+> 🤗 [Model](https://huggingface.co/SII-GAIR-NLP/daVinci-kernel-14B-RL)
 
 ### (2026.06) SpecGen: Accelerating Agentic Kernel Optimization with Speculative Generation
 
@@ -729,7 +733,7 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2606.26453)
 
-### (2026.06) EGG: An Expert-Guided Agent Framework for Kernel Generation
+### (2026.06) [ICML 2026] EGG: An Expert-Guided Agent Framework for Kernel Generation
 
 > 📃 [Paper](https://arxiv.org/abs/2606.26758)
 
@@ -740,6 +744,22 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 ### (2026.06) The FIL Hypothesis: Inductive Biases Help with Kernel Engineering
 
 > 📃 [Paper](https://arxiv.org/abs/2606.30442)
+
+### (2026.07) Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2607.01590)
+
+### (2026.07) Kaizen: Metamorphic Fuzzing and Differential Testing for LLM-Translated HPC Applications
+
+> 📃 [Paper](https://arxiv.org/abs/2607.04058)
+
+### (2026.07) [ICLR Workshop 2026] NKI-Agent: Domain-Specific Fine-Tuning and Agentic Tool Use for Neuron Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2607.04395)
+
+### (2026.07) Correct but Slow: An Empirical Study of the GPU Kernel Evaluation Gap in Modern Domain-Specific Languages
+
+> 📃 [Paper](https://arxiv.org/abs/2607.04454)
 
 ## ✨ Contributing
 
