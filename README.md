@@ -761,6 +761,46 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2607.04454)
 
+### (2026.07) Are LLM-Generated GPU Kernels Production-Ready? A Trace-Driven Benchmark and Optimization Agent
+
+> 📃 [Paper](https://arxiv.org/abs/2607.14541)
+
+### (2026.07) [ICML Workshop 2026] ParallelKernelBench: Can LLMs Write Fast Multi-GPU Kernels?
+
+> 📃 [Paper](https://openreview.net/pdf?id=4IGomFc9dx)
+>  
+> 🛠️ [Code](https://github.com/togethercomputer/ParallelKernelBench) ![Stars](https://img.shields.io/github/stars/togethercomputer/ParallelKernelBench.svg)
+
+### (2026.07) KernelBench-Verified: Do LLM-Generated Kernels Actually Beat PyTorch?
+
+> 📃 [Paper](https://arxiv.org/abs/2607.16241)
+>  
+> 🛠️ [Code](https://github.com/facebookresearch/kernel_bench_verified) ![Stars](https://img.shields.io/github/stars/facebookresearch/kernel_bench_verified.svg)
+
+### (2026.07) JAXBench: Benchmarking Autonomous TPU Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2607.20466)
+
+### (2026.07) MKEvolve: A Modular Multi-Agent Framework for Kernel Code Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2607.20501)
+
+### (2026.07) CANN Bench: Benchmarking Agent Generated Kernels against Real NPU and Algorithmic Limits
+
+> 📃 [Paper](https://arxiv.org/abs/2607.20518)
+
+### (2026.07) Multi-turn RL with Structural and Performance Aware Rewards for CUDA Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2607.20908)
+
+### (2026.07) ParBench: A Benchmark for Reliable Evaluation of LLM Parallel Code Translation
+
+> 📃 [Paper](https://arxiv.org/abs/2607.22588)
+
+### (2026.07) Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2607.23089)
+
 ## ✨ Contributing
 
 Welcome to star ⭐ and open an issue or PR to improve this repo!
