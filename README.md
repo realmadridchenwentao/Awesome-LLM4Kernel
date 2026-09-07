@@ -801,6 +801,106 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2607.23089)
 
+### (2026.07) Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels
+
+> 📃 [Paper](https://arxiv.org/abs/2607.24762)
+
+### (2026.07) ContractHIL-HLS: Contract-Aligned Multi-Agent Workflow with Hardware-in-the-Loop Feedback for HLS Design
+
+> 📃 [Paper](https://arxiv.org/abs/2607.25283)
+
+### (2026.07) AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution
+
+> 📃 [Paper](https://arxiv.org/abs/2607.26661)
+
+### (2026.07) KernelGenBench: A Multi-Source and Multi-Chip Benchmark for LLM-based Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2607.27231)
+
+### (2026.08) Triton for MTIA: Bridging the Programming Model Gaps for Custom AI Accelerators
+
+> 📃 [Paper](https://arxiv.org/abs/2608.00325)
+
+### (2026.08) Rethinking Agentic Kernel Generation for Emerging Accelerators
+
+> 📃 [Paper](https://arxiv.org/abs/2608.00894)
+
+### (2026.08) LEAP: Lean Environment-Feedback via Adaptive Pruning for Code RL in GPU Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2608.01804)
+
+### (2026.08) KernelBrain: Coarse-to-Fine, Budget-Aware Search for Agentic GPU Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2608.02611)
+
+### (2026.08) Don't Regenerate, Debug: A Domain-Specific Agent for Repairing Near-Miss Hardware Operators
+
+> 📃 [Paper](https://arxiv.org/abs/2608.02712)
+
+### (2026.08) SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System
+
+> 📃 [Paper](https://arxiv.org/abs/2608.05033)
+
+### (2026.08) HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation
+
+> 📃 [Paper](https://arxiv.org/abs/2608.06791)
+
+### (2026.08) EvoMem: Memory-Augmented Evolution for Code Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2608.10795)
+
+### (2026.08) RealisticTritonBench: A Benchmark for Triton-Kernel Generation in Real-World AI Frameworks
+
+> 📃 [Paper](https://arxiv.org/abs/2608.12004)
+
+### (2026.08) CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution
+
+> 📃 [Paper](https://arxiv.org/abs/2608.12629)
+
+### (2026.08) Agentic Kernel Optimization: Generating State-of-the-Art GPU Kernels Without Hand-Written CUDA
+
+> 📃 [Paper](https://arxiv.org/abs/2608.14560)
+
+### (2026.08) Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads
+
+> 📃 [Paper](https://arxiv.org/abs/2608.15117)
+
+### (2026.08) KernelArc: A Multi-Agent Framework for GPU Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2608.17071)
+
+### (2026.08) PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX 
+
+> 📃 [Paper](https://arxiv.org/abs/2608.17379)
+
+### (2026.08) rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment
+
+> 📃 [Paper](https://arxiv.org/abs/2608.17641)
+
+### (2026.08) AsmEvo: Agentic Assembly-Level Optimization of AMD GPU Kernels with Functional Equivalence Verification
+
+> 📃 [Paper](https://arxiv.org/abs/2608.20711)
+
+### (2026.08) HIERA: Workload-Aware Planning Across Implementation Spaces for GPU Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2608.21157)
+
+### (2026.08) Portable to Efficient: Auto-Tuning Hardware-Agnostic GPU Kernels in Julia
+
+> 📃 [Paper](https://arxiv.org/abs/2608.21227)
+
+### (2026.08) LLM4LLM: Bridging Kernel Benchmarks and Real Deployment via Closed-Loop Agentic Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2608.21836)
+
+### (2026.08) Prime Agent: A Self-Improving RLM Harness
+
+> 📃 [Paper](https://arxiv.org/abs/2608.23552)
+
+### (2026.09) CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language
+
+> 📃 [Paper](https://arxiv.org/abs/2609.00058)
+
 ## ✨ Contributing
 
 Welcome to star ⭐ and open an issue or PR to improve this repo!
