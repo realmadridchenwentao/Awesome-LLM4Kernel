@@ -901,6 +901,38 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 
 > 📃 [Paper](https://arxiv.org/abs/2609.00058)
 
+### (2026.09) MaxKernel: Agentic Kernel Generation for TPUs
+
+> 📃 [Paper](https://arxiv.org/abs/2609.04523)
+
+### (2026.09) ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications
+
+> 📃 [Paper](https://arxiv.org/abs/2609.06694)
+
+### (2026.09) AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2609.12471)
+>  
+> 🛠️ [Code](https://github.com/AMD-AGI/hip_kernel_llm_lab) ![Stars](https://img.shields.io/github/stars/AMD-AGI/hip_kernel_llm_lab.svg)
+
+### (2026.09) Hawkeye: Hardware-Aware GPU Kernel Optimization with Minimal Supervision
+
+> 📃 [Paper](https://openreview.net/forum?id=e3pxJbBRBk)
+
+### (2026.09) AutoTuneBench: Trustworthy Measurement for Agent Auto-Tuning of LLM Serving Engines
+
+> 📃 [Paper](https://arxiv.org/abs/2609.18123)
+
+### (2026.09) Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles
+
+> 📃 [Paper](https://arxiv.org/abs/2609.22220)
+
+### (2026.09) CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents
+
+> 📃 [Paper](https://arxiv.org/abs/2609.26779)
+>  
+> 🛠️ [Code](https://github.com/nguyenvuthientrang/cliffcompaction) ![Stars](https://img.shields.io/github/stars/nguyenvuthientrang/cliffcompaction.svg)
+
 ## ✨ Contributing
 
 Welcome to star ⭐ and open an issue or PR to improve this repo!
