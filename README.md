@@ -933,6 +933,40 @@ Awesome-LLM4Kernel: A curated list of papers with codes related to LLM-based ker
 >  
 > 🛠️ [Code](https://github.com/nguyenvuthientrang/cliffcompaction) ![Stars](https://img.shields.io/github/stars/nguyenvuthientrang/cliffcompaction.svg)
 
+### (2025.09) TileBench: A Controlled Benchmark for Performance Evaluation and Bottleneck Diagnosis of Tile-Based Programming Models
+
+> 📃 [Paper](https://arxiv.org/abs/2609.29067)
+>
+> 🛠️ [Code](https://github.com/areal-project/AReaL-TIK) ![Stars](https://img.shields.io/github/stars/Deep-Learning-Profiling-Tools/Tilebench.svg)
+
+### (2025.09) iCoder-27B: Recursive AI-Led Development of Frontier Industrial Coding Model
+
+> 📃 [Paper](https://arxiv.org/abs/2609.29626)
+>  
+> 🛠️ [Code](https://github.com/bingreeky/iCoder) ![Stars](https://img.shields.io/github/stars/bingreeky/iCoder.svg)
+>
+> 🤗 [Model](https://huggingface.co/i-Coder)
+
+### (2025.09) KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity
+
+> 📃 [Paper](https://arxiv.org/abs/2609.30057)
+
+### (2025.09) KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization
+
+> 📃 [Paper](https://arxiv.org/abs/2609.30059)
+
+### (2025.09) KernelZero: Co-Evolving Proposer and Coder for Continuously Improved GPU Kernel Generation
+
+> 📃 [Paper](https://arxiv.org/abs/2609.33074)
+>
+> 🤗 [Model](https://huggingface.co/collections/kcxain/kernelzero)
+
+### (2025.09) AReaL-TIK: Stateful Agentic Optimization of Unified RL Kernels through an Optimization IR
+
+> 📃 [Paper](https://arxiv.org/abs/2609.35140)
+>  
+> 🛠️ [Code](https://github.com/areal-project/AReaL-TIK) ![Stars](https://img.shields.io/github/stars/areal-project/AReaL-TIK.svg)
+
 ## ✨ Contributing
 
 Welcome to star ⭐ and open an issue or PR to improve this repo!
